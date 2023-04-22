@@ -2,11 +2,11 @@
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
-from scr.exception import CustomException
-from scr.logging import logging
+from scr.exception.exception import CustomException
+from scr.logging.logging import logging
 
-from scr.utils import save_object
-from scr.utils import evaluate_model
+from scr.utils.utils import save_object
+from scr.utils.utils import evaluate_model
 
 from dataclasses import dataclass
 import sys
